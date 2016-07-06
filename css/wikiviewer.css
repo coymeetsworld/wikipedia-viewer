@@ -1,11 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   background-color: #f5faff;
   color: black;
+}
+
+#header {
+  font-size: 3em;
+  text-align: center;
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#header a {
+  outline : none; /* Removing outline of link for about section. */
+}
+
+/* For info icon (i.e. about section). */
+#header img {
+  width: 15px;
+  margin-top: -30px;
+  margin-left: -5px;
+
 }
 
 input {
@@ -53,10 +68,6 @@ input[type=search]:focus {
 
 #search:hover {
   cursor: pointer;
-}
-
-h1 {
-  text-align: center;
 }
 
 #section_wiki_search {
