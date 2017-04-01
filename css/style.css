@@ -3,49 +3,36 @@ body {
   color: black;
 }
 
-#header {
-  font-size: 3em;
-  text-align: center;
+h1 {
   color: #333;
+  font-size: 3em;
   margin-top: 25px;
   margin-bottom: 25px;
-}
-
-#header a {
-  outline : none; /* Removing outline of link for about section. */
-}
-
-/* For info icon (i.e. about section). */
-#header img {
-  width: 15px;
-  margin-top: -30px;
-  margin-left: -5px;
-
+  text-align: center;
 }
 
 input {
-  outline: none; /* Remove the highlighted border on search box when clicking on it. */
   background-color: white;
   color: black;
+  outline: none; /* Remove the highlighted border on search box when clicking on it. */
 }
 
 input[type=search] {
 	-webkit-appearance: textfield;
-	-webkit-box-sizing: content-box;
-
-  -webkit-transition: all .5s;
-	-moz-transition: all .5s;
-	transition: all .5s;
-
-  -webkit-border-radius: 10em;
-	-moz-border-radius: 10em;
   border: solid 2px #ccc;
 	border-radius: 10em;
-  width: 250px;
-  height: 18px;
-  padding-left: 10px;
+	-moz-border-radius: 10em;
+  -webkit-border-radius: 10em;
+  box-sizing: content-box;
+	-webkit-box-sizing: content-box;
   color: black;
   cursor: pointer;
+  height: 18px;
+  padding-left: 10px;
+	transition: all .5s;
+  -webkit-transition: all .5s;
+	-moz-transition: all .5s;
+  width: 250px;
 }
 
 /* Removes superfluous padding in the input. */
@@ -59,11 +46,11 @@ input[type=search]:hover {
 }
 
 input[type=search]:focus {
-  cursor: auto;
   border-color: #92a4e2;
-  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
-	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
 	box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+  cursor: auto;
 }
 
 #search:hover {
@@ -76,31 +63,31 @@ input[type=search]:focus {
 }
 
 #search_results {
-  width: 90%;
   margin: auto;
   margin-top: 50px;
+  width: 90%;
 }
 
 #search_results a {
-  display: block;
-  color: black;
-  text-decoration: none;
   background-color: #cedff2;
-  padding: 10px;
   border: 1px solid gray;
+  color: black;
+  display: block;
   margin-bottom: 10px;
+  padding: 10px;
+  text-decoration: none;
 }
 
 #search_results a:hover {
-  text-decoration: none;
   border: 1px solid #92a4e2;
+  text-decoration: none;
 }
 
 .wiki_title {
+  color: #0645ad;
   display: inline;
   font-weight: bold;
   font-size: 1.1em;
-  color: #0645ad;
 }
 
 #random_article {
