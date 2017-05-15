@@ -1,7 +1,7 @@
 # Wikipedia Viewer
 
 ## Description
-This application uses the Wikipedia API to make a search request, details on the API can be found [here](https://www.mediawiki.org/wiki/API:Main_page" target="_blank"). The user also has the option of opening a random link to a Wikipedia entry by clicking the link below the search bar.
+This application uses the Wikipedia API to make a search request, details on the API can be found [here](https://www.mediawiki.org/wiki/API:Main_page). The user also has the option of opening a random link to a Wikipedia entry by clicking the link below the search bar.
 
 ## Live Demo
 
